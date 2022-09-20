@@ -387,9 +387,3 @@ class Task2(Scene):
             run_time=(self.END_TIME - self.INITIAL_TIME) / self.P_SPEED,
             rate_func=linear
         )
-
-
-if __name__ == '__main__':
-    tt = Task2.END_TIME
-    print(tt)
-    print(Task2.m_acc_r(tt))
